@@ -10,7 +10,7 @@ from asSQL import Client as cl
 data = cl("protect")
 db = data['data']
 db.create_table()
-db.set("botname",['عهد' , 'عهود' , 'بوت' ,'عاهد' , 'عهو'])
+db.set("botname",['برهوم' , 'هيما' , 'بوت' ,'ابراهيم' , 'ابرا)
 db.set("bad_words",['كس','عير','طيز','زب','كسمك','كسختك','طيزك','مص'])
 
 plugins = dict(root="plugins")
@@ -18,4 +18,4 @@ plugins = dict(root="plugins")
 Client("x",
 api_id=3895828,
 api_hash="5229902a14b2512c35688aa152bd9f29",
-bot_token="5836188784:AAEShq1ZHXnQ0Ll7khfJPmTzGQVrjdXFWgs", plugins=plugins).run()
+bot_token="7059835175:AAH3hPp5ihscOJ4M-nB0fkRsh5lzvaU0pWI", plugins=plugins).run()
