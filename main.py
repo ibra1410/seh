@@ -10,7 +10,7 @@ from asSQL import Client as cl
 data = cl("protect")
 db = data['data']
 db.create_table()
-db.set("botname",['برهوم' , 'هيما' , 'بوت' ,'ابراهيم' , 'ابرا')
+db.set("botname", ['برهوم', 'هيما', 'بوت', 'إبراهيم', 'إبرا'])
 db.set("bad_words",['كس','عير','طيز','زب','كسمك','كسختك','طيزك','مص'])
 
 plugins = dict(root="plugins")
